@@ -21,11 +21,11 @@ type EmittedEvent struct {
 
 type EventFilter struct {
 	// FromBlock from block
-	FromBlock BlockID `json:"from_block"`
+	FromBlock *BlockID `json:"from_block"`
 	// ToBlock to block
-	ToBlock BlockID `json:"to_block,omitempty"`
+	ToBlock *BlockID `json:"to_block,omitempty"`
 	// Address from contract
-	Address types.Hash `json:"address,omitempty"`
+	Address *types.Hash `json:"address,omitempty"`
 	// Keys the values used to filter the events
 	Keys []string `json:"keys,omitempty"`
 }
