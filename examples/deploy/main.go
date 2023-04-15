@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/artifacts"
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/artifacts"
+	"github.com/6xiaowu9/caigo/gateway"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 const (

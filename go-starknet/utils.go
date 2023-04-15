@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/types"
 	"github.com/urfave/cli/v2"
 )
 

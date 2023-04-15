@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/artifacts"
-	devtest "github.com/dontpanicdao/caigo/test"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/artifacts"
+	devtest "github.com/6xiaowu9/caigo/test"
+	"github.com/6xiaowu9/caigo/types"
 	"github.com/joho/godotenv"
 )
 

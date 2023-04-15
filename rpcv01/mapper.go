@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	ctypes "github.com/dontpanicdao/caigo/types"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 type functionInvoke ctypes.FunctionInvoke

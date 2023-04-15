@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 // TestCall tests Call

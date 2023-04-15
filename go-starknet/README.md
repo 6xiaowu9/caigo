@@ -7,7 +7,7 @@ simply:
 
 ```shell
 cd
-go install github.com/dontpanicdao/caigo/go-starknet@latest
+go install github.com/6xiaowu9/caigo/go-starknet@latest
 go-starknet help
 ```
 

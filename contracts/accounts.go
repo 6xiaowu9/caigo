@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/artifacts"
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/rpcv01"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/artifacts"
+	"github.com/6xiaowu9/caigo/gateway"
+	"github.com/6xiaowu9/caigo/rpcv01"
 )
 
 type AccountManager struct {

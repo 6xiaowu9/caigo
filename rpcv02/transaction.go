@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	types "github.com/dontpanicdao/caigo/types"
+	types "github.com/6xiaowu9/caigo/types"
 )
 
 // TransactionByHash gets the details and status of a submitted transaction.

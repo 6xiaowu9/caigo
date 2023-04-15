@@ -3,7 +3,7 @@ package rpcv01
 import (
 	"context"
 
-	ctypes "github.com/dontpanicdao/caigo/types"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 // Call a starknet function without creating a StarkNet transaction.

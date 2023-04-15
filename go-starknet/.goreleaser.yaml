@@ -9,7 +9,7 @@ before:
     - go generate ./...
 builds:
   - ldflags:
-    - -s -w -X "main.version={{.Env.VERSION}}" -X "main.buildTime={{.Env.DATE_TIME}}"
+      - -s -w -X "main.version={{.Env.VERSION}}" -X "main.buildTime={{.Env.DATE_TIME}}"
   - env:
       - CGO_ENABLED=0
     goos:
@@ -24,11 +24,11 @@ archives:
       amd64: x86_64
 brews:
   - name: go-starknet
-    homepage: "https://github.com/dontpanicdao/caigo"
+    homepage: 'https://github.com/6xiaowu9/caigo'
     tap:
       owner: dontpanicdao
       name: homebrew-dontpanicdao
-      token: "{{ .Env.HOMEBREW_TOKEN }}"
+      token: '{{ .Env.HOMEBREW_TOKEN }}'
     commit_author:
       name: gregoryguillou
       email: 10611760+gregoryguillou@users.noreply.github.com
@@ -36,14 +36,13 @@ brews:
 checksum:
   name_template: 'checksums.txt'
 snapshot:
-  name_template: "{{ incpatch .Version }}-next"
+  name_template: '{{ incpatch .Version }}-next'
 changelog:
   sort: asc
   filters:
     exclude:
       - '^docs:'
       - '^test:'
-
 # modelines, feel free to remove those if you don't want/use them:
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj

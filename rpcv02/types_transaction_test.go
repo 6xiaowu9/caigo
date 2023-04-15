@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 func TestTransactionHash(t *testing.T) {

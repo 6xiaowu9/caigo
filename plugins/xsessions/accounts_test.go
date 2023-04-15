@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dontpanicdao/caigo/artifacts"
-	ctypes "github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/artifacts"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 const (

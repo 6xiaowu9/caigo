@@ -2,9 +2,9 @@ module deploy
 
 go 1.18
 
-replace github.com/dontpanicdao/caigo => ../../
+replace github.com/6xiaowu9/caigo => ../../
 
-require github.com/dontpanicdao/caigo v0.3.1-0.20220909184134-51c4e68080bd
+require github.com/6xiaowu9/caigo v0.3.1-0.20220909184134-51c4e68080bd
 
 require (
 	github.com/google/go-querystring v1.1.0 // indirect

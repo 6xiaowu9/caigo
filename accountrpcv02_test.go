@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	rpc "github.com/dontpanicdao/caigo/rpcv02"
-	"github.com/dontpanicdao/caigo/types"
+	rpc "github.com/6xiaowu9/caigo/rpcv02"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 // TestAccountNonce tests the account Nonce

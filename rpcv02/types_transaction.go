@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"strconv"
 
-	types "github.com/dontpanicdao/caigo/types"
+	types "github.com/6xiaowu9/caigo/types"
 )
 
 type TransactionHash struct {

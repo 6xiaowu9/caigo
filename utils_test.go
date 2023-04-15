@@ -3,7 +3,7 @@ package caigo
 import (
 	"testing"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 func TestGeneral_SplitFactStr(t *testing.T) {

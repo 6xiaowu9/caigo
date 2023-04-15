@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/dontpanicdao/caigo"
-	ctypes "github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 type Session struct {

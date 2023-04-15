@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/rpcv01"
-	"github.com/dontpanicdao/caigo/rpcv02"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/gateway"
+	"github.com/6xiaowu9/caigo/rpcv01"
+	"github.com/6xiaowu9/caigo/rpcv02"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 var (

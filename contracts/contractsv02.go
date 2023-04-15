@@ -8,8 +8,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/dontpanicdao/caigo/rpcv02"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/rpcv02"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 type RPCv02Provider rpcv02.Provider
@@ -55,9 +55,8 @@ func (p *RPCv02Provider) deployAccountAndWaitWithoutWallet(ctx context.Context, 
 	}
 	tx, err := provider.AddDeployAccountTransaction(ctx, rpcv02.BroadcastedDeployAccountTransaction{
 		BroadcastedTxnCommonProperties: rpcv02.BroadcastedTxnCommonProperties{},
-		ContractAddressSalt: salt,
-		ConstructorCalldata: inputs,
-		
+		ContractAddressSalt:            salt,
+		ConstructorCalldata:            inputs,
 	})
 	if err != nil {
 		return nil, err

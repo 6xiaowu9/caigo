@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dontpanicdao/caigo/contracts"
-	"github.com/dontpanicdao/caigo/gateway"
+	"github.com/6xiaowu9/caigo/contracts"
+	"github.com/6xiaowu9/caigo/gateway"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 // Start Devnet:

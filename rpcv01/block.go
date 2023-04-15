@@ -3,7 +3,7 @@ package rpcv01
 import (
 	"context"
 
-	ctypes "github.com/dontpanicdao/caigo/types"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 // BlockNumber gets the most recent accepted block number.

@@ -1,7 +1,7 @@
 package rpcv01
 
 import (
-	types "github.com/dontpanicdao/caigo/types"
+	types "github.com/6xiaowu9/caigo/types"
 )
 
 // StorageEntry The changes in the storage of the contract

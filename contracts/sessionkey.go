@@ -8,11 +8,11 @@ import (
 
 	_ "embed"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/plugins/xsessions"
-	"github.com/dontpanicdao/caigo/rpcv01"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/gateway"
+	"github.com/6xiaowu9/caigo/plugins/xsessions"
+	"github.com/6xiaowu9/caigo/rpcv01"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 func signSessionKey(privateKey, accountAddress, counterAddress, selector, sessionPublicKey string) (*xsessions.SessionKeyToken, error) {

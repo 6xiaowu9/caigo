@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/artifacts"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/artifacts"
+	"github.com/6xiaowu9/caigo/types"
 )
 
 // TestDeclareTransaction tests starknet_addDeclareTransaction

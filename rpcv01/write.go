@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	ctypes "github.com/dontpanicdao/caigo/types"
+	ctypes "github.com/6xiaowu9/caigo/types"
 )
 
 // AddInvokeTransaction estimates the fee for a given StarkNet transaction.

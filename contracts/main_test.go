@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/rpcv01"
-	"github.com/dontpanicdao/caigo/rpcv02"
+	"github.com/6xiaowu9/caigo/gateway"
+	"github.com/6xiaowu9/caigo/rpcv01"
+	"github.com/6xiaowu9/caigo/rpcv02"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
 	"github.com/joho/godotenv"
 )

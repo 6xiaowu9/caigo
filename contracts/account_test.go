@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/artifacts"
+	"github.com/6xiaowu9/caigo"
+	"github.com/6xiaowu9/caigo/artifacts"
 	"github.com/joho/godotenv"
 )
 

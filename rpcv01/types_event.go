@@ -1,6 +1,6 @@
 package rpcv01
 
-import "github.com/dontpanicdao/caigo/types"
+import "github.com/6xiaowu9/caigo/types"
 
 type Event struct {
 	FromAddress types.Hash `json:"from_address"`

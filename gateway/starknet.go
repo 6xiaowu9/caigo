@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/6xiaowu9/caigo/types"
 	"github.com/google/go-querystring/query"
 )
 

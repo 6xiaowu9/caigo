@@ -1,4 +1,4 @@
-module github.com/dontpanicdao/caigo
+module github.com/6xiaowu9/caigo
 
 go 1.18
 
